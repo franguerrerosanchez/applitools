@@ -1,7 +1,7 @@
 import { SauceDemo } from '../pages/SauceDemo';
 const { test } = require('@playwright/test');
 const { Eyes, Target, VisualGridRunner, Configuration, MatchLevel } = require('@applitools/eyes-playwright');
-
+//PENEQUE
 const applitoolsConfig = require('../applitools.config.js');
 
 const users = [
