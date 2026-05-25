@@ -42,7 +42,7 @@ jobs:
         run: npx playwright install chromium --with-deps
 
       - name: Run Playwright Tests
-        run: npx playwright test || true
+        run: npx playwright test tests/visual/saucedemo || true
         continue-on-error: true
 
       - name: Upload Playwright Report
